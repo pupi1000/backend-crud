@@ -1,0 +1,137 @@
+Backend-crud - Guía de Instalación y Uso
+
+Este proyecto es un backend CRUD hecho con Node.js, Express y MongoDB. Permite gestionar usuarios y productos con operaciones de crear, leer, actualizar y eliminar (CRUD).
+
+Instalación
+
+Clonar el repositorio
+
+git clone https://github.com/tu-usuario/backend-crud.git
+cd backend-crud
+
+Instalar dependencias
+
+npm install
+
+Configurar MongoDB
+
+Si usas una base de datos local, asegúrate de que MongoDB esté corriendo.
+
+Si usas MongoDB Atlas, cambia la cadena de conexión en server.js:
+
+mongoose.connect('mongodb://localhost:27017/Sample', { useNewUrlParser: true, useUnifiedTopology: true });
+
+Ejecutar el servidor
+
+npm start
+
+
+El servidor estará corriendo en: http://localhost:3000
+
+Endpoints Disponibles
+
+Usuarios
+
+Método
+
+Ruta
+
+Descripción
+
+GET
+
+/usuarios
+
+Obtener todos los usuarios
+
+POST
+
+/usuarios
+
+Crear un usuario
+
+PUT
+
+/usuarios/:id
+
+Actualizar un usuario
+
+DELETE
+
+/usuarios/:id
+
+Eliminar un usuario
+
+Productos
+
+Método
+
+Ruta
+
+Descripción
+
+GET
+
+/productos
+
+Obtener todos los productos
+
+POST
+
+/productos
+
+Crear un producto
+
+PUT
+
+/productos/:id
+
+Actualizar un producto
+
+DELETE
+
+/productos/:id
+
+Eliminar un producto
+
+Contadores
+
+Método
+
+Ruta
+
+Descripción
+
+GET
+
+/operaciones
+
+Ver el número de operaciones realizadas
+
+GET
+
+/contadores
+
+Ver el total de usuarios y productos
+
+Pruebas con Postman o Insomnia
+
+Abrir Postman o Insomnia
+
+Crear una nueva petición
+
+Usar las rutas mencionadas arriba
+
+Enviar los datos en formato JSON (para POST y PUT), por ejemplo:
+
+{
+  "nombre": "Ejemplo",
+  "email": "ejemplo@email.com"
+}
+
+Si todo funciona bien, deberías ver respuestas JSON con los datos ingresados.
+
+Si tienes algún problema, revisa que MongoDB esté corriendo y que el servidor no tenga errores.
+
+¡Listo! Ahora puedes usar tu backend-crud. 
+

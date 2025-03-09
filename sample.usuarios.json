@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "67c7cdd0a8e2dbe84d1039a1"
+  },
+  "nombre": "Miguel",
+  "edad": 30,
+  "ocupacion": "Ingeniero"
+},
+{
+  "_id": {
+    "$oid": "67c7cdd0a8e2dbe84d1039a2"
+  },
+  "nombre": "Ana",
+  "edad": 25,
+  "ocupacion": "Diseñadora"
+}]

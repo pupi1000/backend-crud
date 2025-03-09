@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "67c7ce0ca8e2dbe84d1039a3"
+  },
+  "nombre": "Laptop",
+  "precio": 1200,
+  "categoria": "Tecnología"
+},
+{
+  "_id": {
+    "$oid": "67c7ce0ca8e2dbe84d1039a4"
+  },
+  "nombre": "Silla",
+  "precio": 150,
+  "categoria": "Muebles"
+}]
